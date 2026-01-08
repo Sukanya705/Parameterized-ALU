@@ -12,11 +12,11 @@ different data widths using parameters.
 - Separate testbench for verification
 
 ##  Operations Supported
-000 - Addition
-001 - Subtraction
-010 - AND
-011 - OR
-100 - XOR
+|000 | ADD |
+|001 | SUB |
+|010 | AND |
+|011 | OR  |
+|100 | XOR |
 
 ##  Folder Structure
 rtl/ : ALU RTL design files  
@@ -28,5 +28,6 @@ Steps:
 1. Upload RTL and testbench files
 2. Select any Verilog simulator
 3. Run simulation and observe output
-
+   
+## status
 This project was built as part of my self-learning in RTL design.
